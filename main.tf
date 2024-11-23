@@ -51,7 +51,7 @@ resource "aws_ecs_service" "app_service" {
 
 # Rôle IAM pour ECS
 resource "aws_iam_role" "ecs_task_execution" {  
-  name = "ecsTaskExecutionRole"  
+  name = "ecsTaskExecutionRole-Khadija"  
 
   assume_role_policy = jsonencode({  
     Version = "2012-10-17"  
